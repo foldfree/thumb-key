@@ -142,6 +142,11 @@ val KB_FR_THUMBKEY_V2_MAIN =
                         ),
                     swipes =
                         mapOf(
+                            SwipeDirection.LEFT to
+                                KeyC(
+                                    display = KeyDisplay.TextDisplay("-"),
+                                    action = KeyAction.CommitText("-"),
+                                ),
                             SwipeDirection.RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("v"),
@@ -504,6 +509,11 @@ val KB_FR_THUMBKEY_V2_SHIFTED =
                         ),
                     swipes =
                         mapOf(
+                            SwipeDirection.LEFT to
+                                KeyC(
+                                    display = KeyDisplay.TextDisplay("-"),
+                                    action = KeyAction.CommitText("-"),
+                                ),
                             SwipeDirection.RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("V"),
